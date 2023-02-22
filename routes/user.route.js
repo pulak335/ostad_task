@@ -24,7 +24,7 @@ router.route('/changepass')
     .post(changePass)
 
 router.route(`/confirm/:id`)
-    .post(verifyMail)
+    .get(verifyMail)
     
 
 module.exports = router;
